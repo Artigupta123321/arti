@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits Paradise</title>
+    <link rel="stylesheet" href="fru.css">
+</head>
+<body>
+    <header>
+        <h1>Fruits Paradise</h1>
+        <ul id="inline">
+            <li><a href="home">Home</a></li>
+            <li><a href="home">About us</a></li>
+            <li><a href="home">Contact us</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="fruit-list">
+            <h2>Fruits Available</h2>
+            <div class="fruit-container">
+                <div class="fruit-item" onclick="showDetails('apple')">
+                    <img src="a.jpg" alt="Apple">
+                    <p>Apple</p>
+                </div>
+                <div class="fruit-item" onclick="showDetails('banana')">
+                    <img src="b.jpg" alt="Banana">
+                    <p>Banana</p>
+                </div>
+                <div class="fruit-item" onclick="showDetails('orange')">
+                    <img src="o.jpg" alt="Orange">
+                    <p>Orange</p>
+                </div>
+                <div class="fruit-item" onclick="showDetails('mango')">
+                    <img src="m.jpg" alt="Mango">
+                    <p>Mango</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="fruit-details">
+            <h2>Fruit Details</h2>
+            <div id="details-content">
+                <p>Select a fruit to view details.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fruits Paradise. All rights reserved.</p>
+    </footer>
+
+    <script src="fru.js"></script>
+</body>
+</html>
